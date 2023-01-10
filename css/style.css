@@ -1,0 +1,159 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{}
+.allpart{}
+.header{
+    text-align: center;
+}
+.header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.header h4 {
+    margin-left: 117px;
+    font-size: 19px;
+}
+.navbar{}
+.navbar nav{}
+.navbar nav ul {
+    text-align: center;
+    background: black;
+}
+.navbar nav ul li{
+    display: inline-flex;
+}
+.navbar nav ul li a{
+    
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar nav ul li a:hover{
+    background: red;
+}
+
+.banner,.clint {
+    background: darkorange;
+    text-align: center;
+    padding: 100px;
+    margin-top: -16px;
+}
+.banner h1, .clint{
+    font-size: 100px;
+}
+.banner h4{
+    font-size: 41px;
+}
+
+.porduct{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20px;
+}
+.left{
+    width: 50%;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    width: 50%;
+    text-align: center;
+}
+.right h1{
+    font-size: 55px;
+    text-transform: uppercase;
+}
+.right p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.service{
+    width: 100%;
+    display: inline-flex;
+}
+.one {
+    width: 25%;
+    margin: 5px;
+    text-align: center;
+    background: #70b190;
+    color: #020202;
+    border-radius: 5px;
+}
+.one img{
+    width: 100%;
+}
+.one h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.one p {
+    text-align: justify;
+    padding: 16px;
+}
+.one button {
+    border: none;
+    padding: 12px 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.one button:hover{
+    background: red;
+    color: #fff;
+}
+
+
+.clint {
+    margin: 4px;
+}
+.clint h1{}
+
+.team{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 5px;
+}
+.two{
+    width: 33%;
+    margin: 5px;
+    border-radius: 5px;
+    background: #92c740;
+    text-align: center;
+}
+.two img{
+    width: 100%;
+}
+.two h1{
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.two p{
+    text-align: justify;
+    padding: 15px;
+}
+.two button {
+    text-transform: capitalize;
+}
+
+.footer{}
+.footer p{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+}
+.footer p a {
+    text-decoration: none;
+    color: #e14d4d;
+    margin: 0 7px;
+}
